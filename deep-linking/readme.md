@@ -54,9 +54,9 @@ Let's take the following `course list` json as example, and select `Examen 1`
 ]
 ```
 
-`Examen 1` has to following url:
+`Examen 1` has the following url:
 ```http
-examentheorie.nl/categorie/01KG4H07YP19Q9JZZH2AM1EN3B/item/01KG4H0XTDS69CPV1FFAAH6CEH
+GET examentheorie.nl/categorie/01KG4H07YP19Q9JZZH2AM1EN3B/item/01KG4H0XTDS69CPV1FFAAH6CEH
 ```
 This is our base, what's left to do is add a query parameter which consists of a JWT Token so our systems recognizes that 
 you want to deep link to that exam.
@@ -65,7 +65,7 @@ you want to deep link to that exam.
 To let our system know that we are deep linking, we need to add `access_token` as query parameter to our url.
 So our urls looks like this ('foobar' as example value):
 ```http
-examentheorie.nl/categorie/01KG4H07YP19Q9JZZH2AM1EN3B/item/01KG4H0XTDS69CPV1FFAAH6CEH?access_token=foobar
+GET examentheorie.nl/categorie/01KG4H07YP19Q9JZZH2AM1EN3B/item/01KG4H0XTDS69CPV1FFAAH6CEH?access_token=foobar
 ```
 
 ## JWT Token
@@ -113,7 +113,7 @@ you get those parameters bij contacting us.
 
 This generates a string which we use as `access_token` in the url. So that gives us 
 ```http
-examentheorie.nl/categorie/01KG4H07YP19Q9JZZH2AM1EN3B/item/01KG4H0XTDS69CPV1FFAAH6CEH?access_token=generated_access_token
+GET examentheorie.nl/categorie/01KG4H07YP19Q9JZZH2AM1EN3B/item/01KG4H0XTDS69CPV1FFAAH6CEH?access_token=generated_access_token
 ```
 
 ### Decoding
@@ -130,7 +130,7 @@ is no valid time frame), we redirect to the provided returnUrl with 3 query para
 This way you can handle that error via the url. So for example when using `https://examentheorie.nl` as `returnUrl`, and 
 an error pops up  and the token can be decoded normally we redirect to the following url:
 ```http
-examentheorie.nl?error=401002&message=access%20code%20has%20no%20access&token=generated_access_token
+GET examentheorie.nl?error=401002&message=access%20code%20has%20no%20access&token=generated_access_token
 ```
 
 There are multiple error codes, check the list below with possible errors you can expect:
