@@ -113,7 +113,7 @@ you get those parameters bij contacting us.
 
 This generates a string which we use as `access_token` in the url. So that gives us 
 ```http
-GET https://examentheorie.nl/categorie/01KG4H07YP19Q9JZZH2AM1EN3B/item/01KG4H0XTDS69CPV1FFAAH6CEH?access_token=generated_access_token
+GET https://examentheorie.nl/studie/categorie/01KG4H07YP19Q9JZZH2AM1EN3B/item/01KG4H0XTDS69CPV1FFAAH6CEH?access_token=generated_access_token
 ```
 
 ### Decoding

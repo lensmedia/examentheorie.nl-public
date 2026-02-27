@@ -34,17 +34,17 @@ Json response with all courses and categories/category_items.
                     {
                         "id": "01KG4H0XTDS69CPV1FFAAH6CEH",
                         "title": "Examen 1",
-                        "url": "examentheorie.nl/categorie/01KG4H07YP19Q9JZZH2AM1EN3B/item/01KG4H0XTDS69CPV1FFAAH6CEH"
+                        "url": "examentheorie.nl/studie/categorie/01KG4H07YP19Q9JZZH2AM1EN3B/item/01KG4H0XTDS69CPV1FFAAH6CEH"
                     },
                     {
                         "id": "01KG4H1190NB6AMZKPG7VSTTD5",
                         "title": "Examen 2",
-                        "url": "examentheorie.nl/categorie/01KG4H07YP19Q9JZZH2AM1EN3B/item/01KG4H1190NB6AMZKPG7VSTTD5"
+                        "url": "examentheorie.nl/studie/categorie/01KG4H07YP19Q9JZZH2AM1EN3B/item/01KG4H1190NB6AMZKPG7VSTTD5"
                     },
                     {
                         "id": "01KG4H14D33R8T82RZWE3G27SE",
                         "title": "Examen 3",
-                        "url": "examentheorie.nl/categorie/01KG4H07YP19Q9JZZH2AM1EN3B/item/01KG4H14D33R8T82RZWE3G27SE"
+                        "url": "examentheorie.nl/studie/categorie/01KG4H07YP19Q9JZZH2AM1EN3B/item/01KG4H14D33R8T82RZWE3G27SE"
                     }
                 ]
             }
