@@ -15,3 +15,6 @@ In our API you can do a number of things, check the routes here:
 
 #### Courses 
 - [List](v1/courses-list.md)
+
+#### LPM
+- [Download](v1/lpm-download.md)
